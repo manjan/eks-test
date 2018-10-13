@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: eks-microservice
-        image: 364654941093.dkr.ecr.us-east-1.amazonaws.com/eks-test/web/prod:251ebf3d
+        image: 364654941093.dkr.ecr.us-east-1.amazonaws.com/eks-test/web/prod:8b6ab8bb
         ports:
         - containerPort: 8000
           name: http-server
