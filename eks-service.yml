@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: eks-microservice
+  name: eks-microservice1
 spec:
   selector:
-    app: eks-microservice
+    app: eks-microservice1
   ports:
   - port: 80
     targetPort: http-server
